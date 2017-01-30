@@ -35,6 +35,10 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 
+" remap number increment/decrement to prevent conflict with tmux C-a
+:nnoremap <A-a> <C-a>
+:nnoremap <A-x> <C-x>
+
 " vim-airline
 set laststatus=2
 let g:airline_powerline_fonts = 1
