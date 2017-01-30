@@ -36,8 +36,7 @@ set shiftwidth=4
 set softtabstop=4
 
 " remap number increment/decrement to prevent conflict with tmux C-a
-nnoremap <A-a> <C-a>
-nnoremap <A-x> <C-x>
+map <C-a> <Nop>
 
 " vim-airline
 set laststatus=2
