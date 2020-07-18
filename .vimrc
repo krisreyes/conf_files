@@ -26,6 +26,10 @@ set softtabstop=4
 highlight ColorColumn ctermbg=gray
 set cc=80
 
+" Mouse settings
+set ttymouse=xterm2
+set mouse=a
+
 " remap number increment/decrement to prevent conflict with tmux C-a
 map <C-a> <Nop>
 
