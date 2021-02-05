@@ -29,6 +29,11 @@ set mouse=a
 " remap number increment/decrement to prevent conflict with tmux C-a
 map <C-a> <Nop>
 
+" Vim color scheme
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
+
 " vim-airline
 let g:airline_powerline_fonts=1
 let g:airline_solarized_bg='dark'
@@ -39,11 +44,6 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
-
-" Vim color scheme
-let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
 
 " To get the color scheme to work you must>
 " 1. Get the solorized distribution at https://ethanschoonover.com/solarized/
