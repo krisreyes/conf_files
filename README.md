@@ -35,11 +35,31 @@ folder. This installs new profiles that are properly solarized colored.
 
 
 4. Install powerline fonts, 
-(see https://powerline.readthedocs.io/en/master/installation.html#fonts-installation).
+(see
+https://powerline.readthedocs.io/en/master/installation.html#fonts-installation).
 Essentially, clone the font repo from https://github.com/powerline/fonts, then
 install the fonts (either individually, or all at once using the `install.sh`
 script provided in the repo).
 
-Pick the correct font in the terminal profile. For example (Source Code Pro for 
+Pick the correct font in the terminal profile. For example (Source Code Pro for
 Powerline, 11 pt font, Character Spacing = 0.898, Line Spacing = 0.947).
+
+5. Disable indentation for specific file types.  Create the file: 
+
+~/.vim/indent/tex.vim
+
+In this file, add the single line:
+
+let b:did_indent = 1
+
+Repeat for other files (html, css, etc.).
+
+
+(See https://vim.fandom.com/wiki/How_to_stop_auto_indenting for more info)
+
+
+
+
+
+
 
