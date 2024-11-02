@@ -11,7 +11,7 @@ Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-syntax enable
+syntax on
 set number
 set ts=4
 set expandtab
@@ -31,8 +31,8 @@ map <C-a> <Nop>
 
 " Vim color scheme
 let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
 
 " vim-airline
 let g:airline_powerline_fonts=1
